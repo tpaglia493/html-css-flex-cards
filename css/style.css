@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin-auto-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+div div {
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+    border: 5px solid green;
+    margin: 20px;
+}
+
+.section-margin {
+    margin-top: 40px
+}
