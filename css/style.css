@@ -17,8 +17,16 @@
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .wrap {
     flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .center-text {
@@ -26,12 +34,10 @@
 }
 
 div div {
-    width: 24%;
-    height: 100px;
     background-color: brown;
-    border: 5px solid green;
-    margin: 20px;
-    min-width: 150px;
+    margin: 1.2%;
+    min-width: 30%;
+    max-height: 100px;
 }
 
 img {
