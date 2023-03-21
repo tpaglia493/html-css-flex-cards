@@ -11,8 +11,14 @@
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.space-between {
     justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .center-text {
