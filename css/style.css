@@ -17,8 +17,8 @@
     justify-content: space-between;
 }
 
-.space-around {
-    justify-content: space-around;
+.align-center {
+    align-items: center;
 }
 
 .wrap {
@@ -36,14 +36,65 @@
 div div {
     background-color: brown;
     margin: 1.2%;
-    min-width: 30%;
+    min-width: 336px;
+    /* max-width: 30%;*/
     max-height: 100px;
+    background-color: #0f0e17;
+
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.role {
+    font-size: small;
+}
+
+.contact {
+    color: #00a9f4;
 }
 
 img {
     width: 100px;
 }
 
+h1 {
+    color: #e53170;
+}
+
+.fredoka-400 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+.fredoka-500 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+}
+
+.fredoka-600 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 .section-margin {
     margin-top: 40px
+}
+
+.item-margin {
+    margin-top: 2.5%;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.contact {
+    text-decoration: none;
 }
